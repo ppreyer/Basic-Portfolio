@@ -31,7 +31,6 @@ h1 {
 }
 
 .content {
-	height: 860px;
 	width: 960px;
 	margin: 30px auto;
 }
@@ -59,6 +58,11 @@ h1 {
 	color: #4aaaa5;
 }
 
+.nav li:hover {
+	font-style: italic;
+	transform: translateY(4px);
+}
+
 #about,
 #portfolio {
 	border-right: 1px solid #cccccc;
@@ -72,11 +76,12 @@ h1 {
 .main-left {
 	width: 650px;
 	float: left;
-	margin: 0px auto;
+	margin: 0 auto;
 	background-color: #ffffff;
-	height: 850px;
 	width: calc(70% - 30px);
 	border: 1px solid #dddddd;
+	padding-bottom: 30px;
+	overflow: scroll;
 }
 
 .main-left h2 {
@@ -161,8 +166,23 @@ input[type=submit] {
 
 .port-image {
 	padding: 15px;
+}
+
+.image {
+	position: relative;
 	float: left;
-	width: calc(50% - 50px);
+}
+
+.port p {
+	padding: 10px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 82.3%;
+	position: absolute;
+	margin-left: 15px;
+	bottom: 30px;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .logos {
@@ -171,9 +191,15 @@ input[type=submit] {
 	margin-left: 60px;
 }
 
-#github,
-#linkedin,
-#stackoverflow {
+.logos img:hover {
+	opacity: 0.5;
+}
+
+.logos img:active {
+	transform: translateY(4px);
+}
+
+.logo {
 	float: left;
 	padding: 0 4px;
 }
