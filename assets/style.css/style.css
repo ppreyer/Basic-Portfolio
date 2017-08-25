@@ -1,9 +1,18 @@
+/*Main Content*/
+
 body {
 	margin: 0 auto;
 	background: #000;
 	box-sizing: border-box;
 	background: url(../../assets/images/light_grey/light_grey.png);
 }
+
+.content {
+	width: 960px;
+	margin: 30px auto -80px;
+}
+
+/*Header*/
 
 .header-align {
 	width: 100%;
@@ -30,11 +39,7 @@ h1 {
 	font-size: 28px
 }
 
-.content {
-	width: 960px;
-	margin: 30px auto;
-}
-
+/*Nav Bar*/
 .nav {
 	background-color: #ffffff;
 	color: #4aaaa5;
@@ -73,6 +78,7 @@ h1 {
 	padding: 0 15px;
 }
 
+/*Left Section*/
 .main-left {
 	width: 650px;
 	float: left;
@@ -106,6 +112,7 @@ h1 {
 	color: #777777;
 }
 
+/*Contact Me Form*/
 .contact-form {
 	margin-left: 20px;
 	margin-top: -20px;
@@ -139,6 +146,12 @@ input[type=submit] {
 	font-size: 18px;
 }
 
+input[type=submit]:active {
+	transform: translateY(4px);
+}
+
+
+/*Right Section*/
 .aside {
 	float: left;
 	width: 30%;
@@ -204,12 +217,19 @@ input[type=submit] {
 	padding: 0 4px;
 }
 
+/*Clearfix Hack between content and footer*/
 .clear-fix::after {
 	clear: both;
 	content: '';
 	display: block;
 }
 
+/*Push div for sticky footer*/
+.push {
+	height: 80px;
+}
+
+/*Footer*/
 .footer-align {
 	width: 100%;
 	background-color: #666666;
