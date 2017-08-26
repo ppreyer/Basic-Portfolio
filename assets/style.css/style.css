@@ -87,7 +87,7 @@ h1 {
 	width: calc(70% - 30px);
 	border: 1px solid #dddddd;
 	padding-bottom: 30px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .main-left h2 {
