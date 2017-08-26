@@ -112,6 +112,35 @@ h1 {
 	color: #777777;
 }
 
+.port {
+	margin: -20px 0px 0 40px;
+	height: 95%;
+}
+
+.port-image {
+	padding: 15px;
+}
+
+.image {
+	height: 200px;
+	width: 250px;
+	padding: 15px;
+	position: relative;
+	float: left;
+}
+
+.port p {
+	padding: 10px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 82.3%;
+	position: absolute;
+	margin-left: 15px;
+	bottom: 10px;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 /*Contact Me Form*/
 .contact-form {
 	margin-left: 20px;
@@ -170,35 +199,6 @@ input[type=submit]:active {
 	font-size: 20px;
 	border-bottom: 1.5px solid #dddddd;
 	margin: 0 20px;
-}
-
-.port {
-	margin: -20px 0px 0 40px;
-	height: 95%;
-}
-
-.port-image {
-	padding: 15px;
-}
-
-.image {
-	height: 200px;
-	width: 250px;
-	padding: 15px;
-	position: relative;
-	float: left;
-}
-
-.port p {
-	padding: 10px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	width: 82.3%;
-	position: absolute;
-	margin-left: 15px;
-	bottom: 10px;
-	text-align: center;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .logos {
