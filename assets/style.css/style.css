@@ -182,6 +182,9 @@ input[type=submit]:active {
 }
 
 .image {
+	height: 200px;
+	width: 250px;
+	padding: 15px;
 	position: relative;
 	float: left;
 }
